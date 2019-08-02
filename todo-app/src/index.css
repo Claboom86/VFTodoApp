@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  font: 'Staatliches';
+}
+
+.list-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+p.active {
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+}
+
+.btn-div {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.svg-inline--fa {
+  vertical-align: none;
+}
+
+.btn-info {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-single-div {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
